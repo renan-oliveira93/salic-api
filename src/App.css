@@ -1,0 +1,61 @@
+h1{
+  color: #92c4fd;
+}
+
+.card_container{
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 14rem;
+  margin: 1rem;
+  border: 1px solid #cfcfcfcb;
+  border-radius: 5px;
+  box-shadow: 4px 5px 3px -1px rgba(0,0,0,0.51);
+  padding: 1rem;
+}
+
+.card_rouanet{
+  background-color: #fdf4c8e7;
+  color: #caac6c;
+  font-weight: 500;
+  padding: 0.5rem;
+  width: fit-content;
+}
+
+.card_nome{
+  font-weight: bold;
+}
+
+.card_municipio{
+  color: #999;
+  font-weight: 500;
+}
+
+.card_valor span{
+  color: #000;
+  font-weight: bold;
+}
+
+.card_interacao{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.card button{
+  border: none;
+  background-color: #f3f0f0;
+  color: #999;
+  width: 10rem;
+  height: 1.7rem;
+}
+
+.card_fav_icon{
+  max-width: 3rem;
+}
